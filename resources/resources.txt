@@ -1,0 +1,8 @@
+Sal (Scroll Animation Library)
+https://github.com/mciastek/sal
+
+Jump.js
+https://github.com/callmecavs/jump.js
+
+Book Awesome Trips
+https://web.archive.org/web/20181226165114/http://envato.megadrupal.com/html/bookawesome/

@@ -1,0 +1,17 @@
+{
+  "name": "beyond-borders",
+  "version": "1.0.0",
+  "description": "Travel Agency",
+  "main": "script.js",
+  "scripts": {
+    "start": "concurrently \"pug src/index.pug -P -s -w -o build\" \"sass -q --watch --style compressed src/index.scss build/style.css\""
+  },
+  "author": "Vherniel Lebis",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^4.1.1",
+    "pug": "^2.0.4",
+    "pug-cli": "^1.0.0-alpha6",
+    "sass": "^1.22.7"
+  }
+}
