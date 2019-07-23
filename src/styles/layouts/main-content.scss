@@ -1,0 +1,47 @@
+// Main Landing Page
+.main-content {
+	height: 100vh;
+	background: url('img/main-content/bg.jpg') border-box no-repeat bottom /cover;
+}
+
+// Form Tab
+.place-selection {
+	// Temporary
+	margin-top: 250px;
+	// Temporary
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+}
+
+.place-select {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	border-right: solid 1px #fff;
+}
+
+.place-select:last-child {
+	border-right: none;
+}
+
+.place-select-link {
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+}
+
+.place-select-icon-wrapper {
+	margin: 1.5em auto;
+}
+
+// Main Form
+.main-form {
+	background: #fff;
+}
+
+.main-form-header {
+	padding: 0.5em;
+}
+

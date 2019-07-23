@@ -4,7 +4,7 @@
   "description": "Travel Agency",
   "main": "script.js",
   "scripts": {
-    "start": "concurrently \"pug src/index.pug -P -s -w -o build\" \"sass -q --watch --style compressed src/index.scss build/style.css\""
+    "start": "concurrently \"pug src/index.pug -P -w -o build\" \"sass --watch --style compressed src/index.scss build/style.css\""
   },
   "author": "Vherniel Lebis",
   "license": "MIT",
