@@ -1,0 +1,77 @@
+.hot-sales-today {
+	display: flex;
+	align-items: center;
+}
+
+.hot-sales-heading {
+	display: inline-block;
+	flex: 1;
+}
+
+.hot-sales-places {
+	font-weight: 300;
+}
+
+.all-sales-btn {
+	display: inline-block;
+	color: #111;
+	text-decoration: none;
+	text-transform: uppercase;
+	border: solid 1px #ccc;
+	padding: 1rem 2rem;
+}
+
+.sales-row {
+	display: flex;
+}
+
+.sales-item {
+	flex: 1;
+}
+
+.sales-item-large {
+	flex: 2;
+}
+
+.sales-info-group {
+	margin: 1rem;
+}
+
+.sales-item-title-group {
+	// margin: 1rem;
+}
+
+.sales-item-title {
+	margin: 0.5rem 0;
+	font-weight: 300;
+}
+
+.sales-item-description {
+	margin: 0;
+	font-weight: 300;
+}
+
+.sales-item-price-group {
+	margin-top: 3rem;
+}
+
+.sales-item-old-price {
+	margin: 0;
+	font-weight: 300;
+}
+
+.crossed-price {
+	text-decoration: line-through;
+}
+
+.sales-item-price {
+	margin: 0;
+	font-size: 2em;
+	color: #25ab4b;
+}
+
+.per-night {
+	font-weight: 300;
+	color: initial;
+	font-size: 1rem;
+}
